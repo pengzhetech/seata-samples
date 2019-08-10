@@ -45,6 +45,7 @@ public class SeataSpringbootApp {
     public static void main(String[] args) {
         LOGGER.info("springboot project with seata starting...");
         SpringApplication.run(SeataSpringbootApp.class, args);
+        LOGGER.info("结束了？？？？");
 
     }
 
