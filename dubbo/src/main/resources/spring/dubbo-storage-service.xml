@@ -55,7 +55,7 @@
     </bean>
 
     <dubbo:application name="dubbo-demo-storage-service"  />
-    <dubbo:registry address="multicast://224.5.6.7:1234?unicast=false" />
+    <dubbo:registry address="zookeeper://47.106.238.98:2181" />
     <!--support etcd -->
     <!--<dubbo:registry address="etcd3://127.0.0.1:2379/org.apache.dubbo.registry.RegistryService" />-->
     <!--support zk-->
